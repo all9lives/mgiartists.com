@@ -1,0 +1,112 @@
+
+body, p, div, li {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#container {
+	display: block;
+}
+
+#logo {
+	width: 340px;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+
+#offices {
+	width: 300px;
+	position: absolute;
+	top: 15%;
+	right: 10%;
+}
+
+.locations, .locations ul {
+	list-style: none;
+}
+
+#offices .locations li ul {
+	display: none;
+	background-color: #fff;
+	padding-left: 0;
+	border-bottom: 2px solid #ccc;
+}
+
+#offices .locations h3 {
+	height: 15px;
+	background: url(images/locations_spritemap.png);
+	background-position: 10px 0px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	margin-bottom: 0;
+	display: block;
+	padding-bottom: 3px;
+}
+
+#offices li {
+	width: 300px;
+	padding: 3px 10px;
+	
+}
+
+#offices li h3 {
+	border-bottom: 2px solid transparent;
+}
+
+#offices li h3.underline {
+	border-bottom: 2px solid #ccc;
+}
+
+#offices li:hover h3 {
+	border-bottom: 2px solid #ccc;
+	cursor: pointer;
+}
+
+#Beijing h3 {
+	background-position: 10px  -0px !important;
+}
+
+#Beijing:hover h3 {
+	background-position: 10px  -229px !important;
+}
+
+#London h3 {
+	background-position: 10px  -38px !important;
+}
+
+#London:hover h3 {
+	background-position: 10px  -267px !important;
+}
+
+#LosAngeles h3 {
+	background-position: 10px  -76px !important;
+}
+
+#LosAngeles:hover h3 {
+	background-position: 10px  -305px !important;
+}
+
+#NewYork h3 {
+	background-position: 10px  -191px !important;
+}
+
+#NewYork:hover h3 {
+	background-position: 10px  -420px !important;
+}
+
+#Shanghai h3 {
+	background-position: 10px  -152px !important;
+}
+
+#Shanghai:hover h3 {
+	background-position: 10px  -381px !important;
+}
+
+#Sydney h3 {
+	background-position: 10px  -114px !important;
+}
+
+#Sydney:hover h3 {
+	background-position: 10px  -343px !important;
+}
